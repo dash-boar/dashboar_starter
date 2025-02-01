@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "src/lib/dashboar_starter",
+    "src/bin/dashboar_starter_bin"
+]
+resolver = "2"
+
+[profile.release]
+debug = true # debug symbols in release
